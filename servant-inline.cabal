@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 7b7183ba3c44a0904e471cee819289f3870f8f42eed3cbeb8c6be23d70d87bef
+-- hash: 06d195d455222b41b9d821a18357d05c4ad68e18616a20d74222cc3c6d9fe7ba
 
 name:           servant-inline
 version:        1.0
@@ -14,6 +14,7 @@ category:       Network, Servant
 author:         Artyom Kazak
 maintainer:     Monadfix OÜ <hi@monadfix.io>
 license:        BSD3
+license-file:   LICENSE
 build-type:     Simple
 
 library

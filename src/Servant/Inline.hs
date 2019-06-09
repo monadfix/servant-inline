@@ -21,13 +21,13 @@ import Servant.Server
 
 data Endpoint
     (synopsis :: Symbol)
-    (modifiers :: Modifiers)
+    (modifiers :: Modifiers')
     (route :: Route')
     (params :: Params')
     (result :: Result')
     = Endpoint (MkHandler params result)
 
-data Modifiers = Modifiers [Type]
+data Modifiers' = Modifiers [Type]
 
 data Route' = Route [RoutePiece]
 data RoutePiece = Piece Symbol | Arg Symbol
