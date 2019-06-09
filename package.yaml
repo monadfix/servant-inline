@@ -1,0 +1,18 @@
+name: servant-inline
+version: '1.0'
+synopsis: servant-inline
+description: servant-inline
+category: Network, Servant
+author: Artyom Kazak
+maintainer: Monadfix OÜ <hi@monadfix.io>
+license: BSD3
+
+dependencies:
+- servant
+- servant-server
+- base >=4.7 && <5
+
+library:
+  source-dirs: src
+  exposed-modules:
+  - Servant.Inline
