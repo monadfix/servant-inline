@@ -12,7 +12,7 @@ synopsis:       servant-inline
 description:    servant-inline
 category:       Network, Servant
 author:         Artyom Kazak
-maintainer:     Monadfix OÜ <hi@monadfix.io>
+maintainer:     Monadfix <hi@monadfix.com>
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
